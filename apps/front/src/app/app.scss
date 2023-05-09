@@ -1,0 +1,9 @@
+$theme-colors: (
+  'primary': #006d77,
+  'secondary': #ff6000,
+);
+
+.btn.btn-secondary {
+  color: white;
+}
+@import 'bootstrap/scss/bootstrap.scss';
