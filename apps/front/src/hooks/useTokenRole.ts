@@ -6,8 +6,7 @@ export const useTokenRole = () => {
   const UserIsAdmin = () => {
     if (token) {
       const decodedToken: any = jwtDecode(token);
-      //return decodedToken.role === 'userAdmin';
-      return decodedToken.role === 'user';
+      return decodedToken.role === 'userAdmin';
     }
     return false;
   };
