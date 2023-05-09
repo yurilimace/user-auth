@@ -46,7 +46,7 @@ export const RegisterPage = () => {
         navigate('/login');
       },
       onError: (err) => {
-        console.log('disparou erro');
+        console.log('disparou erroo');
       },
     });
   };
