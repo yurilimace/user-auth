@@ -45,6 +45,9 @@ The project is a monorepo application that allows users to log in, register new 
 6. Run front-end aplication
    `yarn start-front`
 
+7 . User created by migration that has profile level admin
+`email admin@admin.com password: 123456`
+
 # Contributing
 
 1. Fork the repository
