@@ -27,7 +27,6 @@ export const UserQuery = new GraphQLObjectType({
           const list = await UserController.listAllUser();
           return list;
         } catch (err) {
-          console.log(err);
           context.res.status(400).json({ message: err });
         }
       },

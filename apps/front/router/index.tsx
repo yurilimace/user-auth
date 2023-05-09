@@ -16,7 +16,6 @@ interface customRouteProps {
 
 const CustomRoute = ({ children }: { children: React.ReactNode }) => {
   const userToken = localStorage.getItem('token');
-  console.log(userToken);
 
   if (!userToken) {
     return <Navigate to={'/login'} replace />;

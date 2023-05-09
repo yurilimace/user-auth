@@ -31,7 +31,6 @@ export const LoginPage = () => {
   const [login, { data: LoginResponse, loading, error }] = useMutation(LOGIN);
 
   const onSubmit = async (data: LoginForm) => {
-    console.log(data);
     login({
       variables: { email: data.email, password: data.password },
       onCompleted: (data: LoginFormResponse) => {

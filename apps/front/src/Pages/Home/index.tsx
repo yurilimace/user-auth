@@ -31,7 +31,6 @@ export const HomePage = () => {
   };
 
   const ResetSearchField = (value: string) => {
-    console.log(value);
     setSearchInputValue(value);
     if (value === '') refetch({ firstName: '' });
   };
